@@ -16,7 +16,7 @@ def classify_image(image_path, model):
     img = np.expand_dims(img, axis=0)
     prediction = model.predict(img)[0][0]  # Adjusted to handle binary classification output
     
-    return '🐶 Dog' if prediction < 0.5 else '🐱 Cat'
+    return '🐱 Cat' if prediction < 0.5 else '🐶 Dog'
 
 
 
@@ -40,7 +40,7 @@ if uploaded_file is not None:
     if st.button("Predict"):
         with st.spinner('Predicting...'):
             label = classify_image(image_path, model)
-        st.success(f"Prediction complete! 🎉 It's a {label}!")
+        st.success(f"It's a {label}!")
         st.balloons()
 
 # Footer
