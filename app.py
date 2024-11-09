@@ -14,8 +14,11 @@ def classify_image(image_path, model):
     img = load_img(image_path, target_size=(128, 128))
     img = img_to_array(img) / 255.0
     img = np.expand_dims(img, axis=0)
-    prediction = model.predict(img)
-    return '🐶 Dog' if prediction[0] > 0.5 else '🐱 Cat'
+    prediction = model.predict(img)[0][0]  # Adjusted to handle binary classification output
+    
+    # Check if the prediction is below or above the 0.5 threshold
+    return '🐱 Cat' if prediction < 0.5 else '🐶 Dog'
+
 
 # Streamlit UI
 st.title("🐾 Cat vs Dog Classifier 🐾")
