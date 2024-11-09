@@ -16,7 +16,7 @@ def classify_image(image_path, model):
     img = np.expand_dims(img, axis=0)
     prediction = model.predict(img)[0][0]  # Adjusted to handle binary classification output
     
-    return '🐱 Cat' if prediction < 0.5 else '🐶 Dog'
+    return '🐶 Dog' if prediction < 0.5 else '🐱 Cat'
 
 
 
