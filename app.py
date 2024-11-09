@@ -21,7 +21,7 @@ def classify_image(image_path, model):
 
 
 # Streamlit UI
-st.title("🐾 Cat vs Dog Classifier 🐾")
+st.title("Dog 🐶 & Cat 🐱 Identifier 🐾")
 st.write("Upload an image below, and let our AI tell you if it's a **Cat** or a **Dog**!")
 
 # File upload
