@@ -1,6 +1,6 @@
 # 🐱🐶 Cat or Dog Recognizer 🖼️  
 
-![Cat or Dog Image](https://github.com/user-attachments/assets/cat_dog_image.png)
+![Cat or Dog Image](https://github.com/user-attachments/assets/b2bced6d-b0e7-4ecb-89c1-29f58223c00b)
 
 ## Overview
 
@@ -8,14 +8,14 @@ The **Cat or Dog Recognizer** is a machine learning-based image classifier desig
 
 ## Live Demo
 
-Try out the Cat or Dog Recognizer! 👉🏻 [![Experience It! 🌟](https://img.shields.io/badge/Experience%20It!-blue)](https://cat-or-dog-recognizer.streamlit.app/)
+Try out the Cat or Dog Recognizer! 👉🏻 [![Experience It! 🌟](https://img.shields.io/badge/Experience%20It!-blue)](https://paws-or-claws-predictor.streamlit.app/)
 
 <br>
 
 _Below is a preview of the Cat or Dog Recognizer in action. Upload an image to see the prediction! 👇🏻_
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cat_dog_recognition_sample.png" alt="cat_or_dog_recognition">
+  <img src="https://github.com/user-attachments/assets/a46cda1c-b8fc-43cc-b65e-cf78cefd3c13" alt="cat_or_dog_recognition">
 </p>
 
 <br>
@@ -141,7 +141,7 @@ The **Cat or Dog Classifier** project uses a **Convolutional Neural Network (CNN
 <br>
 
 
-## Results 🏆
+## Results🏆
 
 The **Cat or Dog Recognizer** model demonstrates excellent accuracy in classifying images. Below is an illustrative diagram that showcases the **basic workflow** of the model's operation, where the **Convolutional Neural Network (CNN)** analyzes images to classify them as either a **Cat** or a **Dog**.
 
@@ -153,7 +153,7 @@ In the example above, the CNN processes the image, labels it as a **Dog** or **C
 
 <br>
 
-## Conclusion 📚
+## Conclusion📚
 
 The **Cat or Dog Recognizer** project showcases the power of deep learning and image classification in solving real-world problems. By leveraging a Convolutional Neural Network (CNN), the model effectively classifies images, offering a fun and engaging way to explore computer vision and machine learning concepts. 
 
