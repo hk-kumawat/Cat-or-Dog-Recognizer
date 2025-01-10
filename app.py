@@ -1,22 +1,20 @@
 import streamlit as st
 import numpy as np
 from keras.models import load_model
-from keras.preprocessing.image import load_img, img_to_array
+from keras.preprocessing.image import img_to_array
 from PIL import Image
 
 # Load the pre-trained model
 model = load_model('model/cat_dog_model.h5')
 
 # Define a function for image classification
-def classify_image(image_path, model):
-    img = load_img(image_path, target_size=(128, 128))
-    img = img_to_array(img) / 255.0
-    img = np.expand_dims(img, axis=0)
+def classify_image(image, model):
+    img = image.resize((128, 128))  # Resize to match the model input size
+    img = img_to_array(img) / 255.0  # Normalize the image
+    img = np.expand_dims(img, axis=0)  # Add batch dimension
     prediction = model.predict(img)[0][0]  # Adjusted to handle binary classification output
     
     return 'Bark!🐶 Your furry friend just got identified!' if prediction < 0.5 else 'Meow!🐾 It’s a Cat!🐱 Look at that cute face!'
-
-
 
 # Streamlit UI
 st.title("Dog 🐶 & Cat 🐱 Identifier 🐾")
@@ -30,14 +28,10 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image", use_container_width=True)
     
-    # Save the image for prediction
-    image_path = "uploaded_image.jpg"
-    image.save(image_path)
-    
     # Predict button
     if st.button("Predict"):
         with st.spinner('Predicting...'):
-            label = classify_image(image_path, model)
+            label = classify_image(image, model)
         st.success(f"It's a {label}!")
         st.balloons()
 
