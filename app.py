@@ -14,13 +14,9 @@ def classify_image(image_path, model):
     img = np.expand_dims(img, axis=0)
     prediction = model.predict(img)[0][0]  # Adjusted to handle binary classification output
     
-    # Assuming 0 <= prediction <= 1, if the prediction is too close to 0.5, we return "Neither"
-    if prediction < 0.3:
-        return 'Bark!🐶 Your furry friend just got identified!'  # Dog prediction
-    elif prediction > 0.7:
-        return 'Meow!🐾 It’s a Cat!🐱 Look at that cute face!'  # Cat prediction
-    else:
-        return 'Neither Cat 😺 nor Dog 🐶. Could you try uploading a clearer image?'  # Neither cat nor dog
+    return 'Bark!🐶 Your furry friend just got identified!' if prediction < 0.5 else 'Meow!🐾 It’s a Cat!🐱 Look at that cute face!'
+
+
 
 # Streamlit UI
 st.title("Dog 🐶 & Cat 🐱 Identifier 🐾")
@@ -42,7 +38,7 @@ if uploaded_file is not None:
     if st.button("Predict"):
         with st.spinner('Predicting...'):
             label = classify_image(image_path, model)
-        st.success(f"{label}")
+        st.success(f"It's a {label}!")
         st.balloons()
 
 # Footer
