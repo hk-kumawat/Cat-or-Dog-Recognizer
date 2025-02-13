@@ -5,6 +5,16 @@ from keras.models import load_model
 from keras.preprocessing.image import img_to_array
 from PIL import Image
 
+
+# ------------------------------
+# Page Configuration
+# ------------------------------
+st.set_page_config(
+    page_title="Cat & Dog Identifier 🐾",
+    page_icon="🐶🐱",
+    layout="wide"
+)
+
 # Load the pre-trained model
 model = load_model('model/cat_dog_model.h5')
 
