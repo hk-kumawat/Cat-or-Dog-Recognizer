@@ -10,8 +10,8 @@ from PIL import Image
 # Page Configuration
 # ------------------------------
 st.set_page_config(
-    page_title="Cat & Dog Identifier 🐾",
-    page_icon="🐶🐱",
+    page_title="Cat🐱 & Dog🐶 Identifier",
+    page_icon="🐾",
     layout="wide"
 )
 
