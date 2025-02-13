@@ -11,7 +11,8 @@ from PIL import Image
 # ------------------------------
 st.set_page_config(
     page_title="Cat & Dog Identifier 🐾",
-    page_icon="🐶🐱"
+    page_icon="🐶🐱",
+    layout="wide"
 )
 
 # Load the pre-trained model
