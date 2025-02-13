@@ -15,7 +15,7 @@ Try out the Cat or Dog Recognizer! 👉🏻 [![Experience It! 🌟](https://img.
 _Below is a preview of the Cat or Dog Recognizer in action. Upload an image to see the prediction! 👇🏻_
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a46cda1c-b8fc-43cc-b65e-cf78cefd3c13" alt="cat_or_dog_recognition">
+  <img src="https://github.com/user-attachments/assets/e7451bd3-63a3-4da5-9cd4-d23d75ab10cd">
 </p>
 
 <br>
