@@ -50,15 +50,15 @@ I developed this project to explore deep learning and computer vision while crea
 
 ## Table of Contents
 
-1. [Features](#features)
-2. [Dataset](#dataset)
-3. [Data Preprocessing](#data-preprocessing)
-4. [Model Training](#model-training)
-5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Technologies Used](#technologies-used)
-8. [Results](#results)
-9. [Directory Structure](#directory-structure)
+1.  [Features](#features)
+2.  [Installation](#installation)    
+3.  [Usage](#usage)    
+4.  [Technologies Used](#technologies-used)   
+5.  [Dataset](#dataset)
+6.  [Data Preprocessing](#data-preprocessing)
+7.  [Model Training](#model-training)
+8.  [Results](#results)
+9.  [Directory Structure](#directory-structure)
 10. [Contributing](#contributing)
 11. [License](#license)
 12. [Contact](#contact)
@@ -81,6 +81,75 @@ I developed this project to explore deep learning and computer vision while crea
   Seamless experience on both desktop and mobile devices.
   
 <br>
+
+## Installation🛠
+
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/hk-kumawat/Cat-or-Dog-Recognizer.git
+   cd Cat-or-Dog-Recognizer
+   ```
+
+2. **Create & Activate a Virtual Environment (optional but recommended):**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate       # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Required Packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Application:**
+   ```bash
+   streamlit run app.py
+   ```
+   
+<br>
+
+## Usage🚀
+
+1. **Run the Streamlit App**:
+   ```bash
+   streamlit run app.py
+   ```
+
+2. **Choose Input Method:**
+   - Upload your own image
+   - Select from sample images
+
+3. **View Results:**
+   - See the uploaded/selected image
+   - Get instant prediction
+   - Enjoy the celebration animation!
+
+### Using the Jupyter Notebook
+
+To explore the model development process:
+1. **Open the Notebook:**
+   ```bash
+   jupyter notebook "Dog_vs_Cat_Image_Classification.ipynb"
+   ```
+2. **Execute the cells** to follow the complete model development pipeline.
+
+<br>
+
+## Technologies Used💻
+
+- **Programming Language**: Python
+- **Libraries**:
+  - `tensorflow`
+  - `keras`
+  - `numpy`
+  - `opencv-python`
+  - `streamlit`
+  - `matplotlib` (for visualizations)
+- **Modeling Framework**: Keras (for CNN model)
+
+<br> 
+
 
 ## Dataset📊
 
@@ -150,74 +219,6 @@ The **Cat or Dog Classifier** project uses a **Convolutional Neural Network (CNN
 ### Final Model Artifacts:
 - **`cat_dog_model.h5`**: The trained model saved as an H5 file, which can be used to predict whether an uploaded image contains a cat or a dog.
 
-
-<br>
-
-## Installation🛠
-
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/hk-kumawat/Cat-or-Dog-Recognizer.git
-   cd Cat-or-Dog-Recognizer
-   ```
-
-2. **Create & Activate a Virtual Environment (optional but recommended):**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate       # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install Required Packages:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the Application:**
-   ```bash
-   streamlit run app.py
-   ```
-   
-<br>
-
-## Usage🚀
-
-1. **Run the Streamlit App**:
-   ```bash
-   streamlit run app.py
-   ```
-
-2. **Choose Input Method:**
-   - Upload your own image
-   - Select from sample images
-
-3. **View Results:**
-   - See the uploaded/selected image
-   - Get instant prediction
-   - Enjoy the celebration animation!
-
-### Using the Jupyter Notebook
-
-To explore the model development process:
-1. **Open the Notebook:**
-   ```bash
-   jupyter notebook "Dog_vs_Cat_Image_Classification.ipynb"
-   ```
-2. **Execute the cells** to follow the complete model development pipeline.
-
-<br>
-
-## Technologies Used💻
-
-- **Programming Language**: Python
-- **Libraries**:
-  - `tensorflow`
-  - `keras`
-  - `numpy`
-  - `opencv-python`
-  - `streamlit`
-  - `matplotlib` (for visualizations)
-- **Modeling Framework**: Keras (for CNN model)
 
 <br>
 
