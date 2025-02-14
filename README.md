@@ -159,7 +159,7 @@ The **Cat or Dog Classifier** project uses a **Convolutional Neural Network (CNN
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/hk-kumawat/Cat-or-Dog-Recognizer.git
-   cd hk-kumawat-cat-or-dog-recognizer
+   cd Cat-or-Dog-Recognizer
    ```
 
 2. **Create & Activate a Virtual Environment (optional but recommended):**
