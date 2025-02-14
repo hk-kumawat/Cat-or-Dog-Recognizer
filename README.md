@@ -265,6 +265,8 @@ Contributions make the open source community such an amazing place to learn, ins
 
 Have an idea to improve this project? Go ahead and fork the repo to create a pull request, or open an issue with the tag **"enhancement"**. Don't forget to give the project a star! ⭐ Thanks again! 🙏
 
+<br>
+
 1. **Fork** the repository.
 
 2. **Create** a new branch:
