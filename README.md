@@ -24,7 +24,7 @@ _Below is a preview of the app in action. Upload an image or select a sample to 
 
 <br>
 
-## Learning Journey
+## Learning Journey 🗺️
 
 I developed this project to explore deep learning and computer vision while creating something fun and practical. Here’s a snapshot of my journey:
 
@@ -110,7 +110,7 @@ kagglecatsanddogs_3367a
 
 <br>
 
-## 🔄Data Preprocessing:
+## Data Preprocessing🔄:
 
 The notebook performs several steps to prepare the data:
 
@@ -130,7 +130,7 @@ The notebook performs several steps to prepare the data:
 
 <br>
 
-## 🧠Model Training
+## Model Training🧠
 
 The **Cat or Dog Classifier** project uses a **Convolutional Neural Network (CNN)** to classify images as either a cat or a dog. The model is trained with techniques aimed at improving its accuracy and robustness.
 
@@ -207,7 +207,7 @@ To explore the model development process:
 
 <br>
 
-## 💻Technologies Used
+## Technologies Used💻
 
 - **Programming Language**: Python
 - **Libraries**:
@@ -243,7 +243,7 @@ To explore the model development process:
 
 <br>
 
-## 📁Directory Structure
+## Directory Structure📁
 
 ```plaintext
 hk-kumawat-cat-or-dog-recognizer/
@@ -261,7 +261,7 @@ hk-kumawat-cat-or-dog-recognizer/
 
 <br>
 
-## 🤝Contributing
+## Contributing🤝
 
 Contributions make the open source community such an amazing place to learn, inspire, and create. 🙌 Any contributions you make are greatly appreciated! 😊
 
