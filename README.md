@@ -106,7 +106,9 @@ kagglecatsanddogs_3367a
 ### Source:
 - **[Kaggle Dogs vs Cats Dataset](https://www.kaggle.com/datasets/karakaggle/kaggle-cat-vs-dog-dataset)**: This is the dataset used for training the model, containing labeled images of cats and dogs.
 
-### 🔄Data Processing:
+<br>
+
+## 🔄Data Preprocessing:
 
 The notebook performs several steps to prepare the data:
 
@@ -239,7 +241,7 @@ To explore the model development process:
 
 <br>
 
-## 📁 Directory Structure
+## 📁Directory Structure
 
 ```plaintext
 hk-kumawat-cat-or-dog-recognizer/
@@ -257,7 +259,7 @@ hk-kumawat-cat-or-dog-recognizer/
 
 <br>
 
-## 🤝 Contributing
+## 🤝Contributing
 
 Contributions make the open source community such an amazing place to learn, inspire, and create. 🙌 Any contributions you make are greatly appreciated! 😊
 
@@ -300,9 +302,7 @@ I’d love to connect and discuss further:
 
 <br>
 
-## Thanks!
-
-Thanks for checking out the Cat or Dog Recognizer! Enjoy discovering whether it’s a cat or a dog in your next image! 🐱🐶
+## Thanks for checking out the Cat or Dog Recognizer! 🐱🐶
 
 > "Every pet deserves to be recognized, even by AI!" - Anonymous
 
