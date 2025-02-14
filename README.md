@@ -8,6 +8,8 @@
 
 This project is an image classification system built using **Convolutional Neural Networks (CNN)** and **Streamlit**. It allows users to upload images or select from sample images to identify whether the image contains a cat or a dog. The application features a user-friendly interface, real-time predictions, and interactive elements like balloons animation on successful prediction. The model is trained on a large dataset of cat and dog images and achieves high accuracy in distinguishing between the two pets.
 
+<br>
+
 ## Live Demo
 
 Try out the Cat or Dog Recognizer! 👉🏻 [![Experience It! 🌟](https://img.shields.io/badge/Experience%20It!-blue)](https://paws-or-claws-predictor.streamlit.app/)
